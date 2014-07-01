@@ -12,7 +12,7 @@ import android.util.Log;
 import java.util.GregorianCalendar;
 
 public class WifiReceiver extends BroadcastReceiver {
-    private int WIFI_TIMEOUT = 10*1000;
+    private int WIFI_TIMEOUT = 3 * 60 * 1000;
     public WifiReceiver() {
 
     }
